@@ -356,6 +356,8 @@ btnGalleta.addEventListener("click", () => {
   if (!activo) {
   btnFortuna.classList.add("hidden");
   contenido.classList.add("hidden");
+  space.classList.add("hidden");
+  document.body.style.backgroundColor = "transparent";
   resultado.classList.remove("visible");
   resultado.classList.add("fade-out");
   setTimeout(() => {
@@ -364,6 +366,8 @@ btnGalleta.addEventListener("click", () => {
 } else {
   btnFortuna.classList.remove("hidden");
   contenido.classList.remove("hidden");
+  space.classList.remove("hidden");
+  document.body.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
   mostrarPorDefecto();
 }
 });
@@ -407,5 +411,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   btnFortuna.classList.add("hidden");
   contenido.classList.add("hidden");
+  space.classList.add("hidden");
+  document.body.style.backgroundColor = "transparent";
   mostrarPorDefecto();
 });
