@@ -12,7 +12,7 @@
 }
 
 .top-bar {
-    margin-top: 3rem;
+    margin-top: 3.2rem;
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
@@ -161,3 +161,4 @@
         opacity: 0;
     }
 }
+
